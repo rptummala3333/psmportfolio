@@ -1081,3 +1081,11 @@ h3 {
     grid-row: auto;
   }
 }
+.profile-photo {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border: 1px solid rgba(37, 216, 199, 0.34);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+}
