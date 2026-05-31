@@ -908,6 +908,69 @@ h3 {
   gap: 20px;
 }
 
+.recommendation-list {
+  display: grid;
+  gap: 16px;
+}
+
+.recommendation-feature {
+  display: grid;
+  grid-template-columns: 72px 1fr;
+  gap: 22px;
+  padding: 30px;
+  background: linear-gradient(145deg, rgba(20, 47, 78, 0.92), rgba(10, 25, 45, 0.84));
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+
+.recommendation-feature .icon {
+  margin-bottom: 0;
+}
+
+.recommendation-feature blockquote {
+  margin: 18px 0;
+  color: var(--ink);
+  font-size: clamp(1.08rem, 1.7vw, 1.34rem);
+  line-height: 1.35;
+  font-weight: 650;
+}
+
+.recommendation-feature p:last-child {
+  margin: 0;
+  color: var(--muted);
+}
+
+.theme-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.theme-grid div {
+  min-height: 150px;
+  padding: 26px;
+  background: linear-gradient(145deg, rgba(20, 47, 78, 0.92), rgba(10, 25, 45, 0.84));
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+
+.theme-grid strong,
+.theme-grid span {
+  display: block;
+}
+
+.theme-grid strong {
+  margin-bottom: 20px;
+}
+
+.theme-grid span {
+  color: var(--teal);
+  font-size: 0.86rem;
+  font-weight: 850;
+  text-transform: uppercase;
+}
+
 .reveal {
   opacity: 0;
   transform: translateY(18px);
@@ -948,6 +1011,7 @@ h3 {
   .service-grid,
   .case-grid,
   .trust-grid,
+  .theme-grid,
   .security-lanes,
   .cloud-guardrails {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1019,6 +1083,7 @@ h3 {
   .service-grid,
   .case-grid,
   .trust-grid,
+  .theme-grid,
   .cert-grid,
   .tool-matrix,
   .security-lanes,
@@ -1089,5 +1154,9 @@ h3 {
   .visual-card.wide {
     grid-column: auto;
     grid-row: auto;
+  }
+
+  .recommendation-feature {
+    grid-template-columns: 1fr;
   }
 }
