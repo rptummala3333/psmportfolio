@@ -864,7 +864,7 @@ h3 {
 }
 
 .contact-photo {
-  width: min(100%, 220px);
+  width: min(100%, 260px);
   aspect-ratio: 1;
   object-fit: cover;
   border: 1px solid rgba(255, 255, 255, 0.35);
