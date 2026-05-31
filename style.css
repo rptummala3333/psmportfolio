@@ -908,6 +908,10 @@ h3 {
   gap: 20px;
 }
 
+.recommendations-button {
+  margin-top: 24px;
+}
+
 .recommendation-list {
   display: grid;
   gap: 16px;
