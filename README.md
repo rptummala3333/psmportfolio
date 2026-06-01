@@ -1,5 +1,3 @@
-# portfolio
-
 # Rajendra Tummala Portfolio Website
 
 A modern, responsive portfolio website for **Rajendra Tummala**, an Agile Delivery Manager, Scrum Master, and SAFe practitioner. The site showcases professional experience, Agile delivery capabilities, case studies, certifications, recommendations, and contact information in a clean, enterprise-focused design.
