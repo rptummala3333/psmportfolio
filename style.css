@@ -841,13 +841,6 @@ h3 {
   margin: 0;
 }
 
-.trust {
-  display: grid;
-  grid-template-columns: 0.8fr 1.2fr;
-  gap: clamp(28px, 5vw, 72px);
-  align-items: start;
-}
-
 .trust-grid {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
@@ -1054,7 +1047,6 @@ h3 {
 @media (max-width: 1020px) {
   .hero,
   .about-grid,
-  .trust,
   .contact-panel {
     grid-template-columns: 1fr;
   }
