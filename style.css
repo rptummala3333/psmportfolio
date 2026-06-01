@@ -35,13 +35,7 @@ html {
 body {
   margin: 0;
   color: var(--ink);
-  background:
-    radial-gradient(circle at 14% 8%, rgba(60, 131, 246, 0.22), transparent 30%),
-    radial-gradient(circle at 84% 10%, rgba(34, 211, 238, 0.13), transparent 28%),
-    radial-gradient(circle at 78% 42%, rgba(16, 185, 129, 0.1), transparent 24%),
-    radial-gradient(circle at 22% 72%, rgba(168, 85, 247, 0.12), transparent 28%),
-    linear-gradient(180deg, #0a0a0a 0%, #0d1117 42%, #0a0a0a 100%),
-    var(--bg);
+  background: #0a0a0a;
   font-family: Manrope, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   line-height: 1.6;
   letter-spacing: 0;
@@ -264,7 +258,7 @@ a {
 
 .proof-strip div {
   padding: 18px;
-  background: linear-gradient(180deg, rgba(17, 24, 39, 0.96), rgba(10, 10, 10, 0.92));
+  background: #111827;
 }
 
 .proof-strip dt {
@@ -291,11 +285,7 @@ a {
   overflow: hidden;
   border: 1px solid rgba(99, 102, 241, 0.36);
   border-radius: var(--radius);
-  background:
-    radial-gradient(circle at 18% 18%, rgba(60, 131, 246, 0.24), transparent 32%),
-    radial-gradient(circle at 82% 8%, rgba(99, 102, 241, 0.2), transparent 32%),
-    radial-gradient(circle at 74% 82%, rgba(16, 185, 129, 0.16), transparent 26%),
-    linear-gradient(145deg, #111827, #0a0a0a);
+  background: #0d1117;
   box-shadow: var(--shadow);
 }
 
@@ -452,7 +442,7 @@ a {
 
 .about-panel {
   padding: 30px;
-  background: var(--panel);
+  background: #111827;
   border: 1px solid var(--line);
   border-radius: var(--radius);
   box-shadow: 0 18px 44px rgba(7, 22, 47, 0.06);
@@ -486,7 +476,7 @@ a {
 .case-card,
 .trust-grid div,
 .cert-grid span {
-  background: linear-gradient(145deg, rgba(17, 24, 39, 0.96), rgba(10, 10, 10, 0.88));
+  background: #111827;
   border: 1px solid var(--line);
   border-radius: var(--radius);
 }
@@ -596,7 +586,7 @@ h3 {
   min-height: 62px;
   padding: 14px 20px;
   border-bottom: 1px solid var(--line);
-  background: rgba(10, 10, 10, 0.72);
+  background: #111827;
 }
 
 .tool-matrix div:last-child {
@@ -617,11 +607,7 @@ h3 {
   max-width: none;
   padding-right: max(20px, calc((100% - var(--max)) / 2));
   padding-left: max(20px, calc((100% - var(--max)) / 2));
-  background:
-    radial-gradient(circle at 20% 20%, rgba(60, 131, 246, 0.16), transparent 28%),
-    radial-gradient(circle at 72% 18%, rgba(245, 158, 11, 0.1), transparent 26%),
-    radial-gradient(circle at 78% 72%, rgba(168, 85, 247, 0.08), transparent 26%),
-    linear-gradient(180deg, rgba(10, 10, 10, 0.82), rgba(17, 24, 39, 0.94));
+  background: #0a0a0a;
   border-top: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
 }
@@ -637,7 +623,7 @@ h3 {
   min-height: 390px;
   padding: 24px;
   overflow: hidden;
-  background: linear-gradient(160deg, rgba(17, 24, 39, 0.98), rgba(10, 10, 10, 0.92));
+  background: #111827;
   border: 1px solid var(--line);
   border-radius: var(--radius);
   box-shadow: 0 22px 60px rgba(0, 0, 0, 0.22);
@@ -734,7 +720,7 @@ h3 {
 
 .cloud-card {
   padding: 26px;
-  background: rgba(10, 10, 10, 0.82);
+  background: #111827;
   border: 1px solid var(--line);
   border-radius: var(--radius);
 }
@@ -905,11 +891,7 @@ h3 {
   align-items: center;
   padding: clamp(32px, 6vw, 64px);
   color: #ffffff;
-  background:
-    radial-gradient(circle at 18% 18%, rgba(60, 131, 246, 0.36), transparent 38%),
-    radial-gradient(circle at 80% 18%, rgba(99, 102, 241, 0.24), transparent 34%),
-    linear-gradient(135deg, rgba(16, 185, 129, 0.12), transparent 42%),
-    var(--navy);
+  background: #0d1117;
   border-radius: var(--radius);
   box-shadow: var(--shadow);
 }
@@ -988,7 +970,7 @@ h3 {
   grid-template-columns: 72px 1fr;
   gap: 22px;
   padding: 30px;
-  background: linear-gradient(145deg, rgba(17, 24, 39, 0.96), rgba(10, 10, 10, 0.88));
+  background: #111827;
   border: 1px solid var(--line);
   border-radius: var(--radius);
 }
@@ -1021,7 +1003,7 @@ h3 {
   overflow: hidden;
   min-height: 150px;
   padding: 26px;
-  background: linear-gradient(145deg, rgba(17, 24, 39, 0.96), rgba(10, 10, 10, 0.88));
+  background: #111827;
   border: 1px solid var(--line);
   border-radius: var(--radius);
 }
